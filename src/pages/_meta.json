@@ -18,15 +18,36 @@
   },
   "guide": {
     "title": "Using DNS.SB",
-    "type": "page"
+    "type": "page",
+    "display": "hidden"
   },
   "dot": {
     "title": "DNS over TLS",
-    "type": "page"
+    "type": "page",
+    "display": "hidden"
   },
   "doh": {
     "title": "DNS over HTTPS",
-    "type": "page"
+    "type": "page",
+    "display": "hidden"
+  },
+  "how-to-use-dnssb": {
+    "title": "Using DNS.SB",
+    "type": "menu",
+    "items": {
+      "tos": {
+        "title": "Using DNS.SB",
+        "href": "/guide/"
+      },
+      "servers": {
+        "title": "DNS over TLS",
+        "href": "/dot/"
+      },
+      "privacy": {
+        "title": "DNS over HTTPS",
+        "href": "/doh/"
+      }
+    }
   },
   "faq": {
     "type": "page",
